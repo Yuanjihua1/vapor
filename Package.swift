@@ -233,6 +233,7 @@ let package = Package(
             "ServerSecurity",
             "WebSocket",
             ssl,
+            "FluentMySQL"
         ]),
         .testTarget(name: "VaporTests", dependencies: ["Vapor"]),
 
